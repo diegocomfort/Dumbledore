@@ -3,7 +3,7 @@ const { Configuration, OpenAIApi } = require("openai");
 
 // Creating a new instance of Configuration with the API key
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "Yor API key",
 });
 
 // Creating a new instance of OpenAIApi using the configuration
