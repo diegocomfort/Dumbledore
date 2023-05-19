@@ -13,7 +13,7 @@ Then, execute:
 ```
 npx webpack
 ```
-Go to chrome://extensions, turn on dev mode and click `Load unpacked` and upload this directory
+Go to [chrome://extensions](chrome://extensions), turn on dev mode and click `Load unpacked` and upload this directory
 Dumbledore should now be available in your extension menu
 
 ## Usage
