@@ -98,13 +98,13 @@ textarea,
     width: 380px;
 
     font-size: 15px;
-
+    
+    background-color: lightgoldenrodyellow;
     border-radius: 10px;
 }
 
 #inputWrapper, textarea {
     z-index: 2;
-    background-color: lightgoldenrodyellow;
 }
 
 #inputWrapper {
@@ -123,7 +123,7 @@ textarea {
     background-color: rgb(245, 245, 245);
 }
 
-.responce {
+.response {
     background-color: rgb(215, 215, 215);
 }
 
