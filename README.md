@@ -17,5 +17,5 @@ Go to [chrome://extensions](chrome://extensions), turn on dev mode and click `Lo
 Dumbledore should now be available in your extension menu
 
 ## Usage
-Type in your message where you see "Promt away"
+Type in your message where you see "Promt away!"
 To send your message, click `ctrl+enter` or click on the quote in the top right corner
