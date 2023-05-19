@@ -5,6 +5,7 @@ Chat GTP Chrome Extension
 You must have npm to install packages.
 ```
 git clone https://github.com/diegocomfort/Dumbledore.git
+cd Dumbledore/
 npm install openai webpack lodash
 ```
 Add your API key to background.js, and if you want the AI to be like Dumbledore, add the commented "Optional" object to `history`
