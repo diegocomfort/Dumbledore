@@ -99,12 +99,12 @@ textarea,
 
     font-size: 15px;
 
-    background-color: lightgoldenrodyellow;
     border-radius: 10px;
 }
 
 #inputWrapper, textarea {
     z-index: 2;
+    background-color: lightgoldenrodyellow;
 }
 
 #inputWrapper {
