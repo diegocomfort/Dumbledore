@@ -1,0 +1,138 @@
+/* I'm no CSS wizard, as you can see */
+
+body {
+    width: 400px;
+    height: 540px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.top {
+    position: fixed;
+    z-index: 2;
+
+    height: 80px;
+    width: 380px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.title>h1 {
+    display: block;
+    transform: rotate(-20deg);
+}
+
+h1,
+button {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Notera";
+    src: url("notera.ttf");
+}
+
+h1 {
+    height: min-content;
+    font-family: "Notera";
+}
+
+button {
+    margin-right: 5px;
+    padding: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+
+    width: 200px;
+
+    transition: all 0.3s ease-in-out;
+    transform-origin: center;
+
+    font-size: fit-content;
+    background-color: yellow;
+    color: black;
+    text-align: left;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: yellow;
+    cursor:pointer;
+}
+
+button:active {
+    border: 3px yellow;
+}
+
+#messageFolder {
+    margin-top: 100px;
+    padding-bottom: 84px;
+    z-index: 1;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea,
+.message,
+#inputWrapper {
+    z-index: 1;
+    resize: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+    width: 380px;
+
+    font-size: 15px;
+
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+}
+
+#inputWrapper, textarea {
+    z-index: 2;
+}
+
+#inputWrapper {
+    position: fixed;
+    bottom: 20px;
+}
+
+textarea {
+    margin-top: 3px;
+    height: 18px;
+    width: 365px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.prompt {
+    background-color: rgb(245, 245, 245);
+}
+
+.responce {
+    background-color: rgb(215, 215, 215);
+}
+
+p {
+    margin: 0px;
+    padding: 5px;
+
+    background-color: inherit;
+
+    font-size: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
