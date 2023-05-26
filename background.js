@@ -1,3 +1,7 @@
+/**
+* Most of the documentation here was done by ChatGPT
+*/
+
 // Importing required dependencies from the 'openai' package
 const { Configuration, OpenAIApi } = require("openai");
 
@@ -87,6 +91,7 @@ const createMessageElement = (message, class_name) => {
 };
 
 // Adjust the height of textarea as text is entered
+// Credit: https://stackoverflow.com/a/25621277
 const tx = window.document.getElementsByTagName("textarea");
 for (let i = 0; i < tx.length; i++) {
   tx[i].addEventListener("input", OnInput, false);
