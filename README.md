@@ -8,7 +8,7 @@ git clone https://github.com/diegocomfort/Dumbledore.git
 cd Dumbledore/
 npm install openai webpack webpack-cli lodash
 ```
-Add your API key to background.js, and if you want the AI to be like Dumbledore, add the commented "Optional" object to `history`
+Add your API key to background.js
 Then, execute:
 ```
 npx webpack
