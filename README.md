@@ -6,7 +6,7 @@ You must have npm to install packages.
 ```
 git clone https://github.com/diegocomfort/Dumbledore.git
 cd Dumbledore/
-npm install openai webpack webpack-cli lodash
+npm install openai webpack webpack-cli
 ```
 Add your API key to background.js\
 Then, execute:
