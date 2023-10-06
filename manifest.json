@@ -3,14 +3,7 @@
     "name": "Dumbledore",
     "version": "1.0",
     "description": "Use ChatGPT through a chrome extension.",
-    "permissions": [
-        "tabs",
-        "storage"
-    ],
     "action": {
         "default_popup": "popup.html"
-    },
-    "background": {
-        "service_worker": "./bundle.js"
     }
 }
